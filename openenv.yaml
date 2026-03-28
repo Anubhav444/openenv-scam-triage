@@ -1,0 +1,11 @@
+name: "ScamTriageEnv"
+version: "1.0.0"
+description: "A real-world cybersecurity environment where an agent triages incoming messages to detect and quarantine scams."
+tasks:
+  - id: "task_1"
+    difficulty: "easy"
+  - id: "task_2"
+    difficulty: "medium"
+  - id: "task_3"
+    difficulty: "hard"
+entrypoint: "app:app"
