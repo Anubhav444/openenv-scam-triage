@@ -1,0 +1,16 @@
+[project]
+name = "openenv-scam-triage"
+version = "0.1.0"
+description = "My OpenEnv Hackathon Submission"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "openenv-core",
+    "openai",
+    "numpy",
+    "Pillow"
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
